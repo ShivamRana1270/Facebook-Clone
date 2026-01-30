@@ -1,0 +1,72 @@
+   *{
+        box-sizing: border-box;
+    }
+   body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f0f2f5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 900px;
+    }
+    .facebook h1{
+        font-size: 56px;
+        color: blue;
+    }
+    .facebook p{
+        font-size: 26px;
+    }
+    .box{
+     background-color: white;
+      padding: 20px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+      border-radius: 8px;
+      width: 300px;
+    }
+    .box2 input{
+        margin: 10px;
+        text-align: center;
+        height: 25px;
+        width: 250px;
+        
+    }
+    .box2 button{
+        height: 30px;
+        width: 95%;
+        margin-left: 12px;
+        background-color: blue;
+        color: white;
+    }
+    .btn button{
+        height: 35px;
+        width: 50%; 
+        margin-left: 60px;
+        background-color: green;
+        color: white;
+    }
+    .box2 a{
+        padding:10px;
+        margin: 10px;
+        margin-left: 50px;
+    }
+    @media screen and (max-width:768px){
+        .container{
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .box2 a{
+            text-align: center;
+            margin-left: 0;
+        }
+        .btn button{
+            margin-left: 0;
+        }
+    }
